@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "examen2"
+    }
+  },
+  "defaultProject": "examen2",
+  "cli": {
+    "analytics": false
+  }
 }
