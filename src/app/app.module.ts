@@ -13,6 +13,7 @@ import { HistoComponent } from './histo/histo.component';
 import { PieComponent } from './pie/pie.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PieChartComponent } from './pie-chart/pie-chart.component';
     HistoComponent,
     PieComponent,
     InicioComponent,
-    PieChartComponent
+    PieChartComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,

@@ -33,4 +33,11 @@ export class ControllerService {
             map((result: any) => result)
         )
     }
+    GetDataChartByDimension(dimension: string, orden: string, values: string[], anio: number, mes: string) {
+        console.log('VALUES: ', values);
+
+        return this.http.post(`${URL_API}GetDataChartByDimension/${dimension}/${orden}/${anio}/${mes}`, values).pipe(
+            map((result: any) => result)
+        )
+    }
 }
